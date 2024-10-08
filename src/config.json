@@ -1,0 +1,59 @@
+{
+    "general": {
+        "base_url": "https://api.github.com",
+        "github_token": "",
+        "github_token_forbidden":""
+    },
+
+  "task1": {
+        "endpoint": "users",
+        "username": "jgarciagallardo",
+        "items":["login","id","node_id","avatar_url","gravatar_id","url","html_url","followers_url","following_url","gists_url","starred_url","subscriptions_url","organizations_url","repos_url","events_url","received_events_url","type","site_admin","name","company","blog","location","email","hireable","bio","twitter_username","public_repos","public_gists","created_at","updated_at","following","followers"]
+    },
+  "task2": {
+        "endpoint": "user",
+        "username": "jgarciagallardo",
+        "items":["login","id","node_id","avatar_url","gravatar_id","url","html_url","followers_url","following_url","gists_url","starred_url","subscriptions_url","organizations_url","repos_url","events_url","received_events_url","type","site_admin","name","company","blog","location","email","hireable","bio","twitter_username","public_repos","public_gists","followers","following","created_at","updated_at","private_gists","total_private_repos","owned_private_repos","disk_usage","collaborators","two_factor_authentication","plan","notification_email"]
+    },
+  "task3": {
+        "endpoint_1": "users",
+        "endpoint_2": "repos",
+        "wrong_username": "wrong_user_name_09090909332",
+        "username": "jgarciagallardo",
+        "items":["id","node_id","name","full_name","private","owner","html_url","description","fork","url","forks_url","keys_url","collaborators_url","teams_url","hooks_url","issue_events_url","events_url","assignees_url","branches_url","tags_url","blobs_url","git_tags_url","git_refs_url","trees_url","statuses_url","languages_url","stargazers_url","contributors_url","subscribers_url","subscription_url","commits_url","git_commits_url","comments_url","issue_comment_url","contents_url","compare_url","merges_url","archive_url","downloads_url","issues_url","pulls_url","milestones_url","notifications_url","labels_url","releases_url","deployments_url","created_at","updated_at","pushed_at","git_url","ssh_url","clone_url","svn_url","homepage","size","stargazers_count","watchers_count","language","has_issues","has_projects","has_downloads","has_wiki","has_pages","has_discussions","forks_count","mirror_url","archived","disabled","open_issues_count","license","allow_forking","is_template","web_commit_signoff_required","topics","visibility","forks","open_issues","watchers","default_branch"]
+    },
+  "task4": {
+        "endpoint": "user/repos",
+        "items":["id","node_id","name","full_name","private","owner","html_url","description","fork","url","forks_url","keys_url","collaborators_url","teams_url","hooks_url","issue_events_url","events_url","assignees_url","branches_url","tags_url","blobs_url","git_tags_url","git_refs_url","trees_url","statuses_url","languages_url","stargazers_url","contributors_url","subscribers_url","subscription_url","commits_url","git_commits_url","comments_url","issue_comment_url","contents_url","compare_url","merges_url","archive_url","downloads_url","issues_url","pulls_url","milestones_url","notifications_url","labels_url","releases_url","deployments_url","created_at","updated_at","pushed_at","git_url","ssh_url","clone_url","svn_url","homepage","size","stargazers_count","watchers_count","language","has_issues","has_projects","has_downloads","has_wiki","has_pages","has_discussions","forks_count","mirror_url","archived","disabled","open_issues_count","license","allow_forking","is_template","web_commit_signoff_required","topics","visibility","forks","open_issues","watchers","default_branch","permissions"]
+    },
+  "task5": {
+        "endpoint_1": "repos",
+        "endpoint_2": "commits",
+        "owner": "jgarciagallardo",
+        "repo" : "public_repo"
+    },
+  "task6": {
+        "endpoint": "user",
+        "user_new_name"  : "Javier Garcia",
+        "user_new_bio" : "Biography",
+        "user_new_blog" : "My blog"
+    },
+  "task7": {
+
+        "user_new_name"  : "Javier Garcia",
+        "user_new_bio" : "Biography",
+        "user_new_blog" : "My blog",
+
+        "step_5_repo_list" : ["public_repo","technical_test_apmc"],
+
+        "step_6_user_name":"jgarciagallardo",
+        "step_6_wrong_repo_name": "repoZitory",
+
+        "step_7_item_list": ["sha","author","message","date"],
+        "step_7_first_repo_name" : "public_repo",
+
+        "step_8_item_list": ["sha","author","message","date"],
+        "step_8_last_repo_name" :  "technical_test_apmc"
+    }
+}
+
