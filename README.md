@@ -30,33 +30,37 @@ In summary, while Postman is an excellent tool for initial API exploration and s
 
 + Install virtual environment package.
 
-
-    pip install venv
+```
+pip install venv
+```
 
 + Create virtual environment.
 
-
-    virtualenv venv 
+```
+virtualenv venv 
+```
 
 + Activate virtual environment.
 
-
-    venv\Scripts\activate
+```
+venv\Scripts\activate
+```
 
 + Install required packages.
 
-
-    pip install -r requirements.txt
-
+```
+pip install -r requirements.txt
+```
 
 
 + Run test from <code>src</code> folder.
 
-    
-    pytest task1.py
-    pytest task2.py
-    pytest task3.py
-    pytest task4.py
-    pytest task5.py
-    pytest task6.py
-    pytest task7.py
+``` 
+pytest task1.py
+pytest task2.py
+pytest task3.py
+pytest task4.py
+pytest task5.py
+pytest task6.py
+pytest task7.py
+```
